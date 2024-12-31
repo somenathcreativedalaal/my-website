@@ -1,0 +1,67 @@
+.hero-section {
+    position: relative;
+    height: 500px;
+    background-image: url('/b1.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.hero-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.hero-content {
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+.hero-title {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.hero-description {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.hero-button {
+    background-color: white;
+    color: #2563eb;
+    padding: 12px 24px;
+    border-radius: 8px;
+    font-weight: 600;
+    transition: background-color 0.3s;
+}
+
+.hero-button:hover {
+    background-color: #f3f4f6;
+}
+.section-two h3{     text-align: center;
+    color: #000;
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 20px;}
+    .section-two p{ color: #000; }
+    .contact-us{ text-align: center; }
+    .contact-us h2{text-align: center;
+    color: #000;
+    font-size: 20px;
+    font-weight: bold; text-transform: uppercase;}
+    .contact-us label{ text-align: left;color: #000; text-transform: capitalize;
+    padding-left: 10px;}
